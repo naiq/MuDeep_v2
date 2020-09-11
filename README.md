@@ -11,7 +11,7 @@ This repository contains the Pytorch implementation on Market-1501 for the paper
 * tensorboardX
 
 ### Prepare data
-Pleae download Market-1501 dataset and organize it as follows
+Please download Market-1501 dataset and organize it as follows
 
     MuDeep_v2
         ├── dataset
