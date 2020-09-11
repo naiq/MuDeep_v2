@@ -20,12 +20,12 @@ Pleae download Market-1501 dataset and organize it as follows
         │
         ├── train.py
  
- ### Train
- In `config.py`, set configurations for training, including `MODEL_NAME`, `GPU_ID`, `PROJECT_FOLDER` or `BATCH_SIZE`
+ ### How to train
+ In `config.py`, set configurations for training, including `MODEL_NAME`, `GPU_ID` and `PROJECT_FOLDER`.
  ``` python
- __C.NAME = 'market'  # name your model, the log and model files will be created according to this name
+ __C.NAME = 'market'  # name your model, the model files (.pkl) will be saved according to this name
  __C.GPU_ID = 0,1  
- __C.ROOT = PATH_TO_PROJECT_FOLDER  # all models and log files will be saved in this folder
+ __C.ROOT = 'home/qxl/work/mudeep_v2/'  # path to your project folder, all models and log files will be saved in this folder
  
  ...
  ```
@@ -37,6 +37,6 @@ Pleae download Market-1501 dataset and organize it as follows
  engine.train()
  ```
  
- ### Evaluate
+ ### How to evaluate
  
  ## Results
