@@ -50,4 +50,15 @@ Pleae download Market-1501 dataset and organize it as follows
             )
  ```
  
- ## Results
+ ## Experiment
+ ### augmentation and tricks
+ * random flip
+ * random erasing
+ * last stride = 1
+ * bottleneck
+ 
+ ### Result
+ | **Name** | **backbone** | **image size** | **Rank-1** | **mAP** |
+ | :------: | :------: | :------: | :------: | :------: |
+ | market | ResNet-50 | 384 $\times$ 192 | 95.52 | 86.72 |
+ 
