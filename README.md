@@ -26,7 +26,6 @@ Pleae download Market-1501 dataset and organize it as follows
  __C.NAME = 'market'  # name your model, the model files (.pkl) will be saved according to this name
  __C.GPU_ID = 0,1  
  __C.ROOT = 'home/qxl/work/mudeep_v2/'  # path to your project folder, all models and log files will be saved in this folder
- 
  ...
  ```
  
