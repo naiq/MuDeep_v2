@@ -23,7 +23,7 @@ Please download Market-1501 dataset and organize it as follows
         ├── train.py
  
  ### How to train
- In `config.py`, set configurations for training, including `NAME`, `GPU_ID` and `ROOT`. You can keep others as default to reproduce the result in paper
+ In `config.py`, set configurations for training, including `NAME`, `GPU_ID` and `ROOT`. You can keep others as default to reproduce the result.
  ``` python
  # example
  __C.NAME = 'market'  # name your model, the model files (.pkl) will be saved according to this name
@@ -35,6 +35,7 @@ Please download Market-1501 dataset and organize it as follows
  In `train.py`, using the following command lines to train the model
  
  ``` python
+ # example
  engine = MuDeep_v2(cfg)
  engine.train()
  ```
