@@ -8,10 +8,9 @@ This repository contains the Pytorch implementation on Market-1501 for the paper
 ## Prepare data
 Pleae download Market-1501 dataset and organize it as follows
 
-# For Market-1501 dataset
     MuDeep_v2
         ├── dataset
-        │      └─ Market-1501
+        │      └─ Market-1501 # for Market-1501 dataset
         │             ├── bounding_box_train
         │             ├── bounding_box_test
         │             ├── query
