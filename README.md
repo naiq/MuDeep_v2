@@ -57,8 +57,9 @@ Pleae download Market-1501 dataset and organize it as follows
  ## Result
  | **name** | **backbone** | **image size** | **Rank-1** | **mAP** | **url** |
  | :------: | :------: | :------: | :------: | :------: | :------: |
- | market | ResNet-50 | 384 $\times$ 192 | 95.52 | 86.72 | download |
+ | market | ResNet-50 | 384  192 | 95.52 | 86.72 | download |
  
+ $\alpha$
  
  ## Citation
 If you find this project useful in your research, please consider cite:
