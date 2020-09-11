@@ -8,6 +8,7 @@ This repository contains the Pytorch implementation on Market-1501 for the paper
 ### Prerequisites
 * Python 3.6 or 3.7
 * Pytorch >= 1.1.0
+* tensorboardX
 
 ### Prepare data
 Pleae download Market-1501 dataset and organize it as follows
