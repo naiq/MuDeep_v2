@@ -41,7 +41,7 @@ Pleae download Market-1501 dataset and organize it as follows
 
  
  ### How to evaluate
- In `train.py`, using the following command lines to train the model
+ In `train.py`, using the following command lines to evaluate the model
  
  ``` python
  engine = MuDeep_v2(cfg)
