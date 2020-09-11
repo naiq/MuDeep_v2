@@ -29,13 +29,23 @@ Pleae download Market-1501 dataset and organize it as follows
  ...
  ```
  
- In `train.py`, using the following commend lines to train the model
+ In `train.py`, using the following command lines to train the model
  
  ``` python
  engine = MuDeep_v2(cfg)
  engine.train()
  ```
+ Once trained, the models and log file will be saved in `ROOT/model/NAME` and `ROOT/log/NAME` respectively.
+ 
+ By default, we evaluate the model every 5 epochs, the results will be written in `ROOT/model/NAME/opt.txt`
+
  
  ### How to evaluate
+ In `train.py`, using the following command lines to train the model
+ 
+ ``` python
+ engine = MuDeep_v2(cfg)
+ engine.train()
+ ```
  
  ## Results
