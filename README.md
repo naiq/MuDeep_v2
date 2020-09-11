@@ -23,6 +23,7 @@ Pleae download Market-1501 dataset and organize it as follows
  ### How to train
  In `config.py`, set configurations for training, including `NAME`, `GPU_ID` and `ROOT`. You can keep others as default to reproduce the result in paper
  ``` python
+ # example
  __C.NAME = 'market'  # name your model, the model files (.pkl) will be saved according to this name
  __C.GPU_ID = 0,1  
  __C.ROOT = 'home/qxl/work/mudeep_v2/'  # path to your project folder, all models and log files will be saved in this folder
@@ -44,6 +45,7 @@ Pleae download Market-1501 dataset and organize it as follows
  In `train.py`, using the following command lines to evaluate the model
  
  ``` python
+ # example
  engine = MuDeep_v2(cfg)
  engine.test(model_path='home/qxl/work/mudeep_v2/model/market',   # path to your model
              out_name='market_evaluate'  # name the output TXT file
