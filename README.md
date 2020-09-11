@@ -21,7 +21,7 @@ Pleae download Market-1501 dataset and organize it as follows
         ├── train.py
  
  ### How to train
- In `config.py`, set configurations for training, including `MODEL_NAME`, `GPU_ID` and `PROJECT_FOLDER`.
+ In `config.py`, set configurations for training, including `NAME`, `GPU_ID` and `ROOT`. You can keep others as default to reproduce the result in paper
  ``` python
  __C.NAME = 'market'  # name your model, the model files (.pkl) will be saved according to this name
  __C.GPU_ID = 0,1  
