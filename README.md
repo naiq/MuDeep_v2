@@ -56,3 +56,4 @@ Pleae download Market-1501 dataset and organize it as follows
  | :------: | :------: | :------: | :------: | :------: | :------: |
  | market | ResNet-50 | 384 $\times$ 192 | 95.52 | 86.72 | download |
  
+ $\times 1$
