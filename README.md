@@ -56,4 +56,23 @@ Pleae download Market-1501 dataset and organize it as follows
  | :------: | :------: | :------: | :------: | :------: | :------: |
  | market | ResNet-50 | 384 $\times$ 192 | 95.52 | 86.72 | download |
  
- $\times 1$
+ 
+ ## Citation
+If you find this project useful in your research, please consider cite:
+
+    @article{qian2019leader,
+      title={Leader-based multi-scale attention deep architecture for person re-identification},
+      author={Qian, Xuelin and Fu, Yanwei and Xiang, Tao and Jiang, Yu-Gang and Xue, Xiangyang},
+      journal={IEEE transactions on pattern analysis and machine intelligence},
+      volume={42},
+      number={2},
+      pages={371--385},
+      year={2019},
+      publisher={IEEE}
+    }
+
+## Contact
+
+Any questions or discussion are welcome!
+
+Xuelin Qian (<xlqian15@fudan.edu.cn>)
