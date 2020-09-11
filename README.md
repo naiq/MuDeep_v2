@@ -59,7 +59,7 @@ Please download Market-1501 dataset and organize it as follows
  | **name** | **backbone** | **image size** | **mAP** | **Rank-1** | **Rank-5** | **Rank-10** | **url** |
  | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
  | market_v1 | ResNet-50 | 384 x 192 | 86.87 | 95.43 | 98.46 | 99.23 | [download](https://drive.google.com/file/d/1i_avJ0_Y2hsEfqhhL4DXBrRr1NEzpwZ_/view?usp=sharing) |
- | market_v2 | ResNet-50 | 384 x 128 | 86.79 | 95.34 | 98.40 | 99.11 | [download]() |
+ | market_v2 | ResNet-50 | 384 x 128 | 86.79 | 95.34 | 98.40 | 99.11 | [download](https://drive.google.com/file/d/1r2lsdRGFYajxtNJ7QPyqdif3DrEiHsa4/view?usp=sharing) |
  
  
  
