@@ -19,3 +19,15 @@ Pleae download Market-1501 dataset and organize it as follows
         │             ├── query
         │
         ├── train.py
+ 
+ ### Train
+ In `train.py`, using the following commend lines to train the model
+ 
+ ``` python
+ engine = MuDeep_v2(cfg)
+ engine.train()
+ ```
+ 
+ ### Evaluate
+ 
+ ## Results
