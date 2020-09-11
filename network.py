@@ -1,11 +1,11 @@
 import torch
-import cv2, math, copy
 import torch.nn as nn
 from torch.nn import init
 import torch.utils.model_zoo as model_zoo
 import torchvision
 import torch.nn.functional as F
-from torch.autograd import Variable
+
+import cv2, math, copy
 import matplotlib.pyplot as plt
 from collections import OrderedDict
 

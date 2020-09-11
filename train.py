@@ -8,10 +8,10 @@ import torch.nn.functional as F
 import numpy as np
 import time, pprint, json, argparse, os, tqdm, re
 import matplotlib.pyplot as plt
-from bisect import bisect_right
-import scipy.io as scio
-from PIL import Image
-from collections import defaultdict
+# from bisect import bisect_right
+# import scipy.io as scio
+# from PIL import Image
+# from collections import defaultdict
 from tensorboardX import SummaryWriter
 
 from config import cfg

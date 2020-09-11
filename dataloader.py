@@ -1,12 +1,13 @@
-import os, random
-from PIL import Image
-import cv2, math
-from torchvision import transforms
-import numpy as np
 import torch
 import torch.nn as nn
 import torch.utils.data as Data
+from torchvision import transforms
+
+import os, random, cv2, math
+from PIL import Image
+import numpy as np
 import matplotlib.pyplot as plt
+
 from config import cfg
 
 class RandomErasing(object):
