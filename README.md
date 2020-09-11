@@ -55,10 +55,10 @@ Pleae download Market-1501 dataset and organize it as follows
  ```
  
  ## Result
- | **name** | **backbone** | **image size** | **Rank-1** | **mAP** | **url** |
- | :------: | :------: | :------: | :------: | :------: | :------: |
- | market_v1 | ResNet-50 | 384 x 192 | 95.43 | 86.87 | download |
- | market_v2 | ResNet-50 | 256 x 128 | 95.52 | 86.72 | download |
+ | **name** | **backbone** | **image size** | **mAP** | **Rank-1** | **Rank-5** | **Rank-10** | **url** |
+ | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
+ | market_v1 | ResNet-50 | 384 x 192 | 86.87 | 95.43 | 98.46 | 99.23 | [download]() |
+ | market_v2 | ResNet-50 | 256 x 128 | 95.52 | 86.72 | | | download |
  
  
  
