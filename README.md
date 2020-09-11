@@ -39,7 +39,7 @@ Please download Market-1501 dataset and organize it as follows
  engine = MuDeep_v2(cfg)
  engine.train()
  ```
- Once trained, the models and log file will be saved in `ROOT/model/NAME` and `ROOT/log/NAME` respectively.
+ Once trained, the models and log file will be saved in `ROOT/model/NAME/` and `ROOT/log/NAME/` respectively.
  
  By default, we evaluate the model every 5 epochs, the results will be written in `ROOT/model/NAME/opt.txt`
 
