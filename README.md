@@ -51,7 +51,7 @@ Pleae download Market-1501 dataset and organize it as follows
  ```
  
  ## Experiment
- ### augmentation and tricks
+ ### Augmentation and tricks
  * random flip
  * random erasing
  * last stride = 1
