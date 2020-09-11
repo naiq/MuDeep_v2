@@ -45,7 +45,9 @@ Pleae download Market-1501 dataset and organize it as follows
  
  ``` python
  engine = MuDeep_v2(cfg)
- engine.train()
+ engine.test(model_path='home/qxl/work/mudeep_v2/model/market',   # path to your model
+             out_name='market_evaluate'  # name the output TXT file
+            )
  ```
  
  ## Results
