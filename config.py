@@ -4,16 +4,16 @@ import numpy as np
 __C = edict()
 cfg = __C
 
-# Other options
-__C.NAME = 'market'
+# Base options
+__C.NAME = 'market'  # model name
 __C.GPU_ID = 0,1
 __C.NUM_CLASS = 751   # Market:751; Duke:702; VIPeR:316; CUHK01:871/486; CUHK03:1367/767
-__C.ROOT = '/home/qxl/work/mudeep_v2'
+__C.ROOT = '/home/qxl/work/mudeep_v2' # path to your project folder
 
 # Train options
 __C.TRAIN = edict()
-__C.TRAIN.SIZE = (384, 192)  # 256 x 128
-__C.TRAIN.ROOT = 'dataset/Market-1501/bounding_box_train'
+__C.TRAIN.SIZE = (384, 192)  # 384 x 128
+__C.TRAIN.ROOT = 'dataset/Market-1501/bounding_box_train' 
 __C.TRAIN.LR = 0.1
 __C.TRAIN.STEPSIZE = 40
 __C.TRAIN.MAX_EPOCH = 100
