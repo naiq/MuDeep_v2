@@ -28,7 +28,7 @@ Please download Market-1501 dataset and organize it as follows
  # example
  __C.NAME = 'market'  # name your model, the model files (.pkl) will be saved according to this name
  __C.GPU_ID = 0,1  
- __C.ROOT = 'home/qxl/work/mudeep_v2/'  # path to your project folder, all models and log files will be saved in this folder
+ __C.ROOT = '/home/qxl/work/mudeep_v2/'  # path to your project folder, all models and log files will be saved in this folder
  ...
  ```
  
@@ -50,7 +50,7 @@ Please download Market-1501 dataset and organize it as follows
  ``` python
  # example
  engine = MuDeep_v2(cfg)
- engine.test(model_path='home/qxl/work/mudeep_v2/model/market',   # path to your model
+ engine.test(model_path='/home/qxl/work/mudeep_v2/model/market',   # path to your model
              out_name='market_evaluate'  # name the output TXT file
             )
  ```
