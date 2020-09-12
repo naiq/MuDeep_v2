@@ -1,6 +1,8 @@
 # Leader-based Multi-Scale Attention Deep Architecture for Person Re-identification
 This repository contains the Pytorch implementation for the paper ["Leader-based Multi-Scale Attention Deep Architecture for Person Re-identification"](http://epubs.surrey.ac.uk/852875/1/final_version.pdf)
 
+supports training and testing on Market-1501
+
 ## Framework
 <img src='https://github.com/naiq/MuDeep_v2/blob/master/fig/framework.png' width=500 height=300 alt='framework'>
 
