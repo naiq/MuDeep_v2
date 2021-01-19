@@ -14,7 +14,7 @@ __C.ROOT = '/home/qxl/work/mudeep_v2' # path to your project folder
 __C.TRAIN = edict()
 __C.TRAIN.SIZE = (384, 192)  # 384 x 128
 __C.TRAIN.ROOT = 'dataset/Market-1501/bounding_box_train' 
-__C.TRAIN.LR = 0.1
+__C.TRAIN.LR = 0.09
 __C.TRAIN.STEPSIZE = 40
 __C.TRAIN.MAX_EPOCH = 100
 __C.TRAIN.GAMMA = 0.1
@@ -25,7 +25,7 @@ __C.TRAIN.NUM_WORKERS = 8
 # __C.TRAIN.NUM_FEATURES = 2048
 
 __C.TRAIN.P = 12  # for TripHard Loss (# id)
-__C.TRAIN.K = 4  # for TripHard Loss (# images/id)
+__C.TRAIN.K = 6  # for TripHard Loss (# images/id)
 __C.TRAIN.MARGIN = 1
 
 # Test optionskep
