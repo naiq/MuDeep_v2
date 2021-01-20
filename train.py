@@ -6,7 +6,7 @@ from torch.optim.lr_scheduler import StepLR
 import torch.nn.functional as F
 
 import numpy as np
-import time, pprint, json, argparse, os, tqdm, re
+import time, pprint, json, argparse, os, tqdm, re, random
 import matplotlib.pyplot as plt
 # from bisect import bisect_right
 # import scipy.io as scio
@@ -30,6 +30,7 @@ class MuDeep_v2():
 
         self.MODEL_PATH = os.path.join(self.cfg.ROOT, 'model')
         self.LOG_PATH = os.path.join(self.cfg.ROOT, 'log')
+        self.set_random_seed(666)
         self.build_model()   # build model
         self.root = self.cfg.ROOT
         self.name = self.cfg.NAME
@@ -352,6 +353,13 @@ class MuDeep_v2():
                     f='%s/%s/%s_%d.pkl' % (path, name, name, epoch))
         print ("Finished!")
 
+    def set_random_seed(self, seed):
+        random.seed(seed)
+        np.random.seed(seed)
+        torch.manual_seed(seed)
+        torch.backends.cudnn.deterministic = True
+        torch.backends.cudnn.benchmark = False
+        
     @staticmethod
     def fliplr(img):
         inv_idx = torch.arange(img.size(3)-1,-1,-1).long() # N x c x H x W
