@@ -65,7 +65,7 @@ Please download Market-1501 dataset and organize it as follows
  ### Domain Generalization
  <table>
    <tr align="center">
-      <th rowspan="2"> Nmae </th>
+      <th rowspan="2"> Name </th>
       <th rowspan="2"> Backbone </th>
       <th rowspan="2"> image size </th>
       <th colspan="3"> Rank-1/mAP </th>
