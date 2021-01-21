@@ -56,11 +56,42 @@ Please download Market-1501 dataset and organize it as follows
  ```
  
  ## Result
- | **name** | **backbone** | **image size** | **mAP** | **Rank-1** | **Rank-5** | **Rank-10** | **url** |
+ ### Suervised Learning
+ | **Name** | **Backbone** | **image size** | **mAP** | **Rank-1** | **Rank-5** | **Rank-10** | **url** |
  | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
- | market_v1 | ResNet-50 | 384 x 192 | 86.87 | 95.43 | 98.46 | 99.23 | [download](https://drive.google.com/file/d/1i_avJ0_Y2hsEfqhhL4DXBrRr1NEzpwZ_/view?usp=sharing) |
- | market_v2 | ResNet-50 | 384 x 128 | 86.79 | 95.34 | 98.40 | 99.11 | [download](https://drive.google.com/file/d/1r2lsdRGFYajxtNJ7QPyqdif3DrEiHsa4/view?usp=sharing) |
+ | market_v1 | ResNet-50 | 384 x 192 | 85.61 | 95.46 | 98.43 | 98.93 | [download](https://drive.google.com/file/d/1i_avJ0_Y2hsEfqhhL4DXBrRr1NEzpwZ_/view?usp=sharing) |
+ | market_v2 | ResNet-50 | 384 x 128 | 85.39 | 95.25 | 98.22 | 98.99 | [download](https://drive.google.com/file/d/1r2lsdRGFYajxtNJ7QPyqdif3DrEiHsa4/view?usp=sharing) |
  
+ ### Domain generalization
+ <table>
+   <tr align="center">
+      <th rowspan="2"> Nmae </th>
+      <th rowspan="2"> Backbone </th>
+      <th rowspan="2"> image size </th>
+      <th colspan="3"> Rank-1/mAP </th>
+   </tr>
+   <tr align="center">
+      <th> DukeMTMC-reID </th>
+      <th> CUHK03-np Detected </th>
+      <th> CUHK03-np Labeled </th>
+   </tr>
+   <tr align="center">
+      <td> market_v1 </td>
+      <td> ResNet-50 </td>
+      <td> 384 x 192 </td>
+      <td> 46.68/27.33 </td> <!-- duke -->
+      <td> 10.64/8.36 </td> <!-- cuhk03np detect -->
+      <td> 11.79/9.34 </td> <!-- cuhk03np label -->
+   </tr>
+   <tr align="center">
+      <td> market_v2 </td>
+      <td> ResNet-50 </td>
+      <td> 384 x 128 </td>
+      <td> 48.56/28.24 </td> <!-- duke -->
+      <td> 12.00/10.08 </td> <!-- cuhk03np detect -->
+      <td> 13.00/10.70 </td> <!-- cuhk03np label -->
+   </tr>
+</table>
  
  
  ## Citation
