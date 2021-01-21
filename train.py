@@ -30,7 +30,7 @@ class MuDeep_v2():
 
         self.MODEL_PATH = os.path.join(self.cfg.ROOT, 'model')
         self.LOG_PATH = os.path.join(self.cfg.ROOT, 'log')
-        self.set_random_seed(666)
+        self.set_random_seed(12345)
         self.build_model()   # build model
         self.root = self.cfg.ROOT
         self.name = self.cfg.NAME
