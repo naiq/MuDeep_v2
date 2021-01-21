@@ -59,8 +59,8 @@ Please download Market-1501 dataset and organize it as follows
  ### Supervised Learning
  | **Name** | **Backbone** | **image size** | **mAP** | **Rank-1** | **Rank-5** | **Rank-10** | **url** |
  | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
- | market_v1 | ResNet-50 | 384 x 192 | 85.61 | 95.46 | 98.43 | 98.93 | [download](https://drive.google.com/file/d/1i_avJ0_Y2hsEfqhhL4DXBrRr1NEzpwZ_/view?usp=sharing) |
- | market_v2 | ResNet-50 | 384 x 128 | 85.39 | 95.25 | 98.22 | 98.99 | [download](https://drive.google.com/file/d/1r2lsdRGFYajxtNJ7QPyqdif3DrEiHsa4/view?usp=sharing) |
+ | market_v1 | ResNet-50 | 384 x 192 | 85.61 | 95.46 | 98.43 | 98.93 | [download](https://drive.google.com/file/d/1slg1i74LOkyPNRtfUWi8n6pExofOUL-d/view?usp=sharing) |
+ | market_v2 | ResNet-50 | 384 x 128 | 85.39 | 95.25 | 98.22 | 98.99 | [download](https://drive.google.com/file/d/1_4LCwJHOUXBdwKVSF8TArWomyNq9-4Ao/view?usp=sharing) |
  
  ### Domain Generalization
  <table>
